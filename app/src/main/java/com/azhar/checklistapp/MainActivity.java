@@ -23,20 +23,14 @@ public class MainActivity extends AppCompatActivity {
         cvLogin = findViewById(R.id.cvLogin);
         cvRegister = findViewById(R.id.cvRegister);
 
-        cvLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(i);
-            }
+        cvLogin.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(i);
         });
 
-        cvRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, RegisterActivity.class);
-                startActivity(i);
-            }
+        cvRegister.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(i);
         });
 
 

@@ -37,13 +37,13 @@ public class RegisterActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.edtPassword);
         edtUserName = findViewById(R.id.edtUserName);
 
-        btnRegister.setOnClickListener(view -> registerSendJSON());
+        btnRegister.setOnClickListener(view -> registerUser());
 
     }
 
 
 
-    private void registerSendJSON(){
+    private void registerUser(){
 
         String mEmail = edtEmail.getText().toString().trim();
         String mPass = edtPassword.getText().toString().trim();

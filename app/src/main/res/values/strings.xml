@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CheckListApp</string>
+    <string name="username">Username</string>
+    <string name="hint_username">Mauskan Username</string>
+    <string name="hint_email">Mauskan Email</string>
+    <string name="lb_email">Email</string>
+    <string name="lb_password">Password</string>
+    <string name="hint_password">Masukan Password</string>
+    <string name="lb_btn_register">Register</string>
+    <string name="lb_btn_login">Login</string>
 </resources>
